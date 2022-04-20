@@ -1,0 +1,55 @@
+.base {
+  text-align: center;
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  color: white;
+  max-width: 100%;
+}
+
+.inbase {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.textred {
+  text-align: left;
+  color: red;
+}
+
+.form-control {
+  background-color: rgb(85, 84, 84);
+  width: 100%;
+  margin-bottom: 20px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 3px;
+}
+
+.card {
+  margin: auto;
+  width: 20rem;
+  border: 1px solid white;
+  border-radius: 6px;
+  padding: 30px;
+  background-color: rgb(53, 48, 48);
+}
+
+.button {
+  margin-top: 50px;
+  padding: 5px 30px; 
+  border: none; 
+  border-radius: 3px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-right: 30px;
+}
+.navbar {
+  background-color: black;
+  padding: 20px;
+  height: 7vh;
+}
