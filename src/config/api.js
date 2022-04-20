@@ -1,6 +1,6 @@
 export const API = () => {
   const baseUrl =
-    process.env.SERVER_URL ||
+    process.env.REACT_APP_SERVER_URL ||
     'https://b32-backend-dumbways.herokuapp.com/api/v1' ||
     'https://localhost:5000/api/v1';
 
