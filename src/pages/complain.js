@@ -7,7 +7,7 @@ let socket;
 function Complain(){
   
     useEffect(() => {
-      socket = io(Process.env.SERVER_URL || 
+      socket = io(Process.env.REACT_APP_SERVER_URL || 
         'https://b32-backend-dumbways.herokuapp.com/api/v1/' || 
         'http://localhost:5000/api/v1/');
   
